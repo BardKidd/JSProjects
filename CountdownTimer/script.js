@@ -12,7 +12,7 @@ function diff() {
   // 取得該數的最大整數
   const getSeconds = Math.floor((diffTime / 1000) % 60);
   const getMins = Math.floor((diffTime / 1000 / 60) % 60);
-  const getHours = Math.floor((diffTime / 1000 / 60 / 60) % 60);
+  const getHours = Math.floor((diffTime / 1000 / 60 / 60) % 24);
   const getDays = Math.floor(diffTime / 1000 / 60 / 60 / 24);
 
   days.innerHTML = getDays;
