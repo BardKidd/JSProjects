@@ -15,10 +15,10 @@ function diff() {
   const getHours = Math.floor((diffTime / 1000 / 60 / 60) % 24);
   const getDays = Math.floor(diffTime / 1000 / 60 / 60 / 24);
 
-  days.innerHTML = getDays;
-  hours.innerHTML = getHours;
-  mins.innerHTML = getMins;
-  seconds.innerHTML = getSeconds;
+  days.innerText = getDays;
+  hours.innerText = getHours;
+  mins.innerText = getMins;
+  seconds.innerText = getSeconds;
 }
 setInterval(() => {
   diff();
