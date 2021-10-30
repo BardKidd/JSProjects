@@ -7,28 +7,52 @@
     <link rel="stylesheet" href="./style.css" />
     <title>測驗 APP</title>
   </head>
-  <body>
-    <article>
-      <h2>題目</h2>
+  <body class="bg">
+    <article class="quizBox" id="quizBox">
+      <h2 id="quizTitle">題目</h2>
       <ul>
         <li>
-          <input type="radio" name="" id="" />
-          <label for="">答案1</label>
+          <input
+            class="radioBtn"
+            type="radio"
+            name="answer"
+            id="ans1"
+            value="a"
+          />
+          <label for="ans1" id="ans1_text">答案1</label>
         </li>
         <li>
-          <input type="radio" name="" id="" />
-          <label for="">答案2</label>
+          <input
+            class="radioBtn"
+            type="radio"
+            name="answer"
+            id="ans2"
+            value="b"
+          />
+          <label for="ans2" id="ans2_text">答案2</label>
         </li>
         <li>
-          <input type="radio" name="" id="" />
-          <label for="">答案3</label>
+          <input
+            class="radioBtn"
+            type="radio"
+            name="answer"
+            id="ans3"
+            value="c"
+          />
+          <label for="ans3" id="ans3_text">答案3</label>
         </li>
         <li>
-          <input type="radio" name="" id="" />
-          <label for="">答案4</label>
+          <input
+            class="radioBtn"
+            type="radio"
+            name="answer"
+            id="ans4"
+            value="d"
+          />
+          <label for="ans4" id="ans4_text">答案4</label>
         </li>
       </ul>
-      <button type="button">確認</button>
+      <button id="submit" type="button">確認</button>
     </article>
     <script src="script.js" defer></script>
   </body>
