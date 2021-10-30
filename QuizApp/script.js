@@ -65,10 +65,11 @@ function initQuiz() {
 initQuiz();
 
 btn.addEventListener("click", () => {
+  // 有無選取的 flag
   let flag = false;
   radioBtns.forEach((btn) => {
     if (btn.checked) {
-      flag = true;
+      flag = true; // 有被選到就變為 true
       btn.checked = false;
       if (btn.value === quizData[current].correct) {
         score++;
@@ -76,12 +77,17 @@ btn.addEventListener("click", () => {
     }
   });
 
+  // 都沒選取選項的話就強制停止 function
   if (!flag) return false;
 
   current++;
+
+  // 目前題目不等於最後一題就會更新題目
   if (current !== quizData.length) {
     initQuiz();
   }
+
+  // 全部完成顯示以下 template
   if (current === quizData.length) {
     quizBox.innerHTML = `
     <h2>測驗完成，你的得分為${score}/${quizData.length}</h2>
