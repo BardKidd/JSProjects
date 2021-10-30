@@ -4,9 +4,118 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
+
     <title>食譜 App</title>
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <article class="recipeBox">
+      <header class="searchBox">
+        <input type="text" />
+        <span>
+          <i class="fas fa-search"></i>
+        </span>
+      </header>
+      <nav class="foods">
+        <div class="foods_title">準備食材</div>
+        <div class="foods_content" id="foods">
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/Olive%20Oil.png"
+              alt="Olive Oil"
+            />
+            <span>Olive Oil</span>
+          </div>
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/red%20chili.png"
+              alt="red chili"
+            />
+            <span>Red chili</span>
+          </div>
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/Thai%20Red%20Curry%20Paste.png"
+              alt="Thai Red Curry Paste"
+            />
+            <span>Thai Red Curry Paste</span>
+          </div>
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/Vegetable%20Stock%20Cube.png"
+              alt="Vegetable Stock Cube"
+            />
+            <span>Vegetable Stock Cube</span>
+          </div>
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/Coconut%20Milk.png"
+              alt="Coconut Milk"
+            />
+            <span>Coconut Milk</span>
+          </div>
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/Fish%20Sauce.png"
+              alt="Fish Sauce"
+            />
+            <span>Fish Sauce</span>
+          </div>
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/Rice%20Noodles.png"
+              alt="Rice Noodles"
+            />
+            <span>Rice Noodles</span>
+          </div>
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/Lime.png"
+              alt="Lime"
+            />
+            <span>Lime</span>
+          </div>
+          <div class="foods_sort">
+            <img
+              class="round"
+              src="https://www.themealdb.com/images/ingredients/King%20Prawns.png"
+              alt="King Prawns"
+            />
+            <span>King Prawns</span>
+          </div>
+        </div>
+      </nav>
+      <section class="meal">
+        <div class="card">
+          <span class="card_mark">筆者推薦</span>
+          <div class="card_main">
+            <img
+              class="card_body"
+              src="https://www.themealdb.com/images/media/meals/rvypwy1503069308.jpg"
+              alt="義大利麵"
+            />
+            <div class="card_footer">
+              <span>義大利麵</span>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </body>
 </html>
