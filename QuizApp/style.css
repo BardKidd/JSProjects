@@ -41,7 +41,7 @@ button {
 button:hover {
   background-color: #0776ca;
 }
-button:focus {
+button:active {
   background-color: #0b5994;
 }
 label,
