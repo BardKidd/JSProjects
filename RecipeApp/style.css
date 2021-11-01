@@ -16,7 +16,7 @@ img {
 }
 .recipeBox {
   width: 480px;
-  height: 650px;
+  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -50,7 +50,7 @@ input:focus {
   background-color: #90d5ec;
   background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
   width: 100%;
-  height: 35%;
+  height: 35vh;
   position: relative;
   overflow: hidden;
 }
@@ -64,15 +64,16 @@ input:focus {
   width: 100%;
   height: 100%;
   justify-content: space-between;
-  padding-bottom: 15px;
   box-sizing: content-box;
   position: absolute;
-  top: 25%;
+  top: 10%;
   overflow-x: auto;
+  align-items: flex-start;
 }
 .foods_sort {
   margin: 0 8px;
   text-align: center;
+  margin-top: 10%;
 }
 
 .foods_sort span {
@@ -93,7 +94,7 @@ input:focus {
 }
 .round:hover {
   transition: 0.18s;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 .meal {
   padding: 15px;
