@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, "微軟正黑體", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(223, 198, 245);
+}
+
+form {
+  max-width: 100%;
+  width: 400px;
+  margin: auto;
+}
+input {
+  display: block;
+  font-size: 2rem;
+  border: none;
+  padding: 1rem 2rem;
+  outline: none;
+  box-shadow: 0 0 10px #e0e0e0;
+  border-radius: 5px;
+  width: 100%;
+}
+input::placeholder {
+  color: #b5b5b5;
+}
+
+.todoBox {
+  padding: 0;
+  margin: 0;
+}
+.todoBox li {
+  list-style: none;
+  font-size: 2rem;
+  color: #b5b5b5;
+  background-color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 10px #e0e0e0;
+}
+.isFinish {
+  text-decoration: line-through;
+  text-decoration-color: #817b7b;
+}
