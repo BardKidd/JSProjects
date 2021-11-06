@@ -16,6 +16,7 @@ h1 {
   font-size: 8rem;
   font-weight: bold;
   text-align: center;
+  line-height: 16rem;
   color: rgb(223, 198, 245);
 }
 
@@ -49,8 +50,19 @@ input::placeholder {
   background-color: white;
   padding: 1rem 2rem;
   box-shadow: 0 0 10px #e0e0e0;
+  cursor: pointer;
 }
 .isFinish {
   text-decoration: line-through;
   text-decoration-color: #817b7b;
+}
+
+.hintBox {
+  margin-top: 1rem;
+  text-align: center;
+}
+.hintBox span {
+  display: block;
+
+  color: #b5b5b5;
 }
