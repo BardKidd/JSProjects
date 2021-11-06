@@ -6,20 +6,6 @@ const savedItem = JSON.parse(localStorage.getItem("todos")) || [];
 if (savedItem.length > 0) {
   savedItem.forEach((todo) => {
     addTodo(todo);
-    // if (todo.isFinish) {
-    //   todoEl.classList.toggle("isFinish");
-    // }
-    // const todoEl = document.createElement("li");
-    // todoEl.addEventListener("click", () => {
-    //   todoEl.classList.toggle("isFinish");
-    //   setToLocalStorage();
-    // });
-    // if (todo.isFinish) {
-    //   todoEl.classList.toggle("isFinish");
-    // }
-
-    // todoEl.innerText = todo.text;
-    // todos.appendChild(todoEl);
   });
 }
 

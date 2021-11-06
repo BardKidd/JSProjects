@@ -7,9 +7,13 @@
 body {
   width: 100%;
   height: 100vh;
-  background: #f5f3fa;
+  /* background: #f5f3fa;
   background: -webkit-linear-gradient(to right, #f5f3fa, #d3cce3);
-  background: linear-gradient(to right, #f5f3fa, #d3cce3);
+  background: linear-gradient(to right, #f5f3fa, #d3cce3); */
+  background-image: url(https://images.unsplash.com/photo-1528459709161-157d86910939?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80);
+  background-size: cover;
+  background-position: center center;
+  backdrop-filter: blur(15px);
 }
 img {
   width: 100%;
@@ -24,6 +28,7 @@ img {
   box-shadow: 0 0 10px #c1c1c1;
   background-color: white;
   overflow: hidden;
+  z-index: 99;
 }
 .searchBox {
   background-color: white;
@@ -42,6 +47,7 @@ input:focus {
 .searchBox i {
   font-size: 1.5rem;
   color: rgb(177, 177, 177);
+  cursor: pointer;
 }
 
 .foods {

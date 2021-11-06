@@ -18,79 +18,24 @@
   <body>
     <article class="recipeBox">
       <header class="searchBox">
-        <input type="text" />
-        <span>
-          <i class="fas fa-search"></i>
-        </span>
+        <form id="searchForm">
+          <input type="text" id="searchInput" />
+          <span>
+            <i class="fas fa-search" id="searchIcon"></i>
+          </span>
+        </form>
       </header>
       <nav class="foods">
         <div class="foods_title">準備食材</div>
-        <div class="foods_content" id="foods">
-          <div class="foods_sort">
-            <img class="round" src="./img/Olive Oil.png" alt="Olive Oil" />
-            <span>Olive Oil</span>
-          </div>
-          <div class="foods_sort">
-            <img class="round" src="./img/red chili.png" alt="red chili" />
-            <span>Red chili</span>
-          </div>
-          <div class="foods_sort">
-            <img
-              class="round"
-              src="./img/Thai Red Curry Paste.png"
-              alt="Thai Red Curry Paste"
-            />
-            <span>Thai Red Curry Paste</span>
-          </div>
-          <div class="foods_sort">
-            <img
-              class="round"
-              src="./img/Vegetable Stock Cube.png"
-              alt="Vegetable Stock Cube"
-            />
-            <span>Vegetable Stock Cube</span>
-          </div>
-          <div class="foods_sort">
-            <img
-              class="round"
-              src="./img/Coconut Milk.png"
-              alt="Coconut Milk"
-            />
-            <span>Coconut Milk</span>
-          </div>
-          <div class="foods_sort">
-            <img class="round" src="./img/Fish Sauce.png" alt="Fish Sauce" />
-            <span>Fish Sauce</span>
-          </div>
-          <div class="foods_sort">
-            <img
-              class="round"
-              src="./img/Rice Noodles.png"
-              alt="Rice Noodles"
-            />
-            <span>Rice Noodles</span>
-          </div>
-          <div class="foods_sort">
-            <img class="round" src="./img/Lime.png" alt="Lime" />
-            <span>Lime</span>
-          </div>
-          <div class="foods_sort">
-            <img class="round" src="./img/King Prawns.png" alt="King Prawns" />
-            <span>King Prawns</span>
-          </div>
-        </div>
+        <div class="foods_content" id="foods"></div>
       </nav>
       <section class="meal" id="oneMeal">
         <div class="card">
           <span class="card_mark">筆者推薦</span>
           <div class="card_main">
-            <img
-              id="oneMeal_img"
-              class="card_body"
-              src="./img/rvypwy1503069308.jpg"
-            />
+            <img id="oneMeal_img" class="card_body" src="#" />
             <div class="card_footer">
-              <span id="oneMeal_title">義大利麵</span>
+              <span id="oneMeal_title"></span>
               <i class="fas fa-heart"></i>
             </div>
           </div>
